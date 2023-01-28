@@ -1,0 +1,10 @@
+@use '../abstracts' as *;
+
+.testimonials-section {
+  --content-spacing: 3rem;
+
+  @include respond(lg) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 7rem;
+  }
+}

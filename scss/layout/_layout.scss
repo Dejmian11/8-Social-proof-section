@@ -1,0 +1,59 @@
+@use '../abstracts' as *;
+
+.section {
+  padding-block: 5rem;
+
+  @include respond(lg) {
+    padding-block: 8rem;
+  }
+
+  &__header {
+    --content-spacing: 1.5rem;
+
+    @include respond(lg) {
+      padding-right: 5.5rem;
+      text-align: left;
+    }
+  }
+
+  &__title {
+    padding-inline: 2rem;
+  }
+
+  &__description {
+    padding-inline: .3rem;
+  }
+
+  &__title,
+  &__description {
+    @include respond(lg) {
+      padding-inline: 0;
+    }
+  }
+}
+
+.wrapper {
+	padding-inline: 1.5rem;
+	margin-inline: auto;
+
+	@include respond(sm) {
+		max-width: 540px;
+	}
+
+	@include respond(md) {
+		max-width: 720px;
+	}
+
+	@include respond(lg) {
+		max-width: 960px;
+	}
+
+	@include respond(xl) {
+		max-width: 1150px;
+	}
+}
+
+.grid {
+  display: grid;
+  gap: var(--content-spacing, 1rem);
+}
