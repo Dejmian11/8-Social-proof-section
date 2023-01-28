@@ -15,12 +15,12 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/Dejmian11/8-Social-proof-section/blob/master/images/design/Screenshot%20-%20Frontend%20Mentor%20Social%20proof%20section.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/social-proof-section-build-with-sass-vfoTWRJ1_x)
+- Live Site URL: [Live](https://ubiquitous-praline-ee4a7a.netlify.app/)
 
 ## My process
 
